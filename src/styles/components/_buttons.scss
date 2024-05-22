@@ -1,7 +1,7 @@
 @use '../variables';
 
 .btn--primary{
-    background-color: #3742fa;
+    background-color: variables.$buttonColor;
     color: variables.$textColor;
     text-decoration: none;
     font-weight: bold;
@@ -12,7 +12,7 @@
     display: block;
 
     &:hover{
-        background-color: lighten(#3742fa, 1%);
+        background-color: lighten(variables.$buttonColor, 1%);
     }
 
     @media (max-width: 640px){
